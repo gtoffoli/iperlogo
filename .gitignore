@@ -36,6 +36,7 @@
 *.tlog
 *.rtf
 *.mdb
-debug
 backup*
+upgradelog*
+debug
 release
