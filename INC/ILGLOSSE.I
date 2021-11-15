@@ -1,0 +1,10 @@
+void GLOSSA();
+int numstringa();
+void NUMSM();
+int alloca(int, int);
+void CONS_TESTO();
+void RECU_TESTO();
+void leggi_testo(int, int, long, long);
+int scrivi_testo(int, int, long, long);
+int scrivi_glosse(int, unsigned long, int, long);
+unsigned long leggi_glosse(int, int, long);

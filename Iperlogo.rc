@@ -1,0 +1,1172 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "OdRes.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""OdRes.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""res\\iperlogo.rc2""  // non-App Studio edited resources\r\n"
+    "\r\n"
+    "#include ""afxres.rc""  \t// Standard components\r\n"
+    "#include ""afxprint.rc""\t// printing/print preview resources\r\n"
+    "#include ""OdRes.rc""\t// Objective Views resources\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "RES\\IPERLOGO.ICO"
+IDR_TURTLE              ICON    DISCARDABLE     "res\\turtle.ico"
+IDR_EDITOR              ICON    DISCARDABLE     "res\\editor.ico"
+IDR_WEB                 ICON    DISCARDABLE     "res\\browser.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Pulisci finestra",            ID_FILE_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Butta gli oggetti Logo",      ID_FILE_NEW
+        MENUITEM "Recupera..",                  ID_FILE_LOAD
+        MENUITEM "Conserva",                    ID_FILESAVE
+        MENUITEM "Conserva come..",             ID_FILE_SAVEAS
+        MENUITEM "Cancella procedura..",        ID_FILE_ERASE
+        MENUITEM SEPARATOR
+        MENUITEM "Stampa..",                    ID_FILE_PRINT
+        MENUITEM "Imposta Stampa..",            ID_FILE_PRINTSETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Esci",                        ID_APP_EXIT
+    END
+    POPUP "Finestre"
+    BEGIN
+        MENUITEM "Nuova Tarta..",               ID_WINDOWS_TURTLE
+        MENUITEM "Nuovo Foglio",                ID_WINDOWS_EDITOR
+        MENUITEM "Nuovo Browser",               ID_WINDOWS_BROWSER
+        MENUITEM "Nuovo Player",                ID_WINDOWS_PLAYER
+        MENUITEM SEPARATOR
+    END
+    POPUP "Imposta"
+    BEGIN
+        MENUITEM "Carattere..",                 ID_OPTION_FONT
+        MENUITEM SEPARATOR
+        MENUITEM "Aggiorna Profilo",            ID_OPTION_PROFILE
+        MENUITEM SEPARATOR
+        MENUITEM "Prompt comandi",              ID_OPTION_PROMPT
+        MENUITEM "Eco comandi",                 ID_OPTION_ECOINT, CHECKED
+        MENUITEM "Eco comandi batch",           ID_OPTION_ECO
+        MENUITEM SEPARATOR
+        MENUITEM "Tracciamento",                ID_OPTION_TRACE
+        MENUITEM SEPARATOR
+        MENUITEM "Mostra Stato",                ID_OPTION_SHOWSTATUS
+    END
+    POPUP "Aiuti"
+    BEGIN
+        MENUITEM "Note di rilascio",            ID_HELP_RELEASE
+        MENUITEM "Glossario",                   ID_HELP_GLOSSARY
+        MENUITEM "Manuali",                     ID_HELP_TUTORIAL
+        MENUITEM SEPARATOR
+        MENUITEM "Registra Iperlogo..",         ID_REGISTER
+        MENUITEM "Su Iperlogo..",               ID_APP_ABOUT
+    END
+    MENUITEM "Esegui",                      ID_EXEC, HELP
+    MENUITEM "Interrompi",                  ID_HALT, HELP
+    MENUITEM "Pausa",                       ID_PAUSE, HELP
+END
+
+IDR_TURTLE MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Pulisci finestra",            ID_BITMAP_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Recupera..",                  ID_BITMAP_LOAD
+        MENUITEM "Conserva",                    ID_BITMAP_SAVE
+        MENUITEM "Conserva come..",             ID_BITMAP_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "Stampa..",                    ID_BITMAP_PRINT
+        MENUITEM "Imposta Stampa..",            ID_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Area Attiva..",               ID_BITMAP_ACTIVEAREA
+        MENUITEM SEPARATOR
+        MENUITEM "Chiudi",                      ID_FILE_CLOSE
+    END
+    POPUP "Composizione"
+    BEGIN
+        MENUITEM "Taglia",                      ID_EDIT_TAGLIA, GRAYED
+        MENUITEM "Copia",                       ID_EDIT_COPIA, GRAYED
+        MENUITEM "Incolla",                     ID_EDIT_INCOLLA
+        MENUITEM "Butta",                       ID_EDIT_BUTTA, GRAYED
+        MENUITEM "Riempi Selezione",            ID_EDIT_RIEMPI, GRAYED
+        MENUITEM SEPARATOR
+        POPUP "Seleziona.."
+        BEGIN
+            MENUITEM "Tutto",                       ID_EDIT_SELECTALL
+            MENUITEM "Area Attiva",                 ID_EDIT_SELECTAREA
+        END
+    END
+    POPUP "Imposta"
+    BEGIN
+        MENUITEM "Carattere..",                 ID_SET_FONT
+        POPUP "Spessore Penna"
+        BEGIN
+            MENUITEM "+",                           ID_SET_PENPLUS
+            MENUITEM "-",                           ID_SET_PENMINUS
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Colore Penna..",              ID_SET_PENCOLOR
+        MENUITEM "Colore Riempimento..",        ID_SET_FLOODCOLOR
+        MENUITEM "Colore Sfondo..",             ID_SET_SCREENCOLOR
+        MENUITEM "Tavolozza..",                 ID_SET_PALETTE
+        MENUITEM SEPARATOR
+        MENUITEM "Mostra Stato",                ID_TURTLESTATUS_SHOW
+        MENUITEM SEPARATOR
+        MENUITEM "Seleziona Tarta",             ID_SELECT_TURTLE
+    END
+    POPUP "Vista"
+    BEGIN
+        MENUITEM "Centra",                      ID_VIEW_CENTER
+        MENUITEM "Più Vicino",                  ID_ZOOM_IN, INACTIVE
+        MENUITEM "Più Lontano",                 ID_ZOOM_OUT, INACTIVE
+        MENUITEM "Normale",                     ID_ZOOM_NORMAL, INACTIVE
+    END
+END
+
+IDR_EDITOR MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Pulisci finestra",            ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Recupera..",                  ID_FILE_LOAD
+        MENUITEM "Edita procedura..",           ID_FILE_EDITPROC
+        MENUITEM "Conserva",                    ID_FILE_SAVE
+        MENUITEM "Conserva come..",             ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Stampa..",                    ID_FILE_PRINT
+        MENUITEM "Imposta Stampa..",            ID_FILE_PRINTSETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Esegui e Chiudi",             ID_FILE_EXECANDEXIT
+        MENUITEM "Chiudi",                      ID_FILE_EXIT
+    END
+    POPUP "Composizione"
+    BEGIN
+        MENUITEM "Disfa\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Taglia\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "Copia\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "Incolla\tCtrl+V",             ID_EDIT_PASTE
+        MENUITEM "Butta\tCANC",                 ID_EDIT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Trova..\tCtrl+F",             ID_SEARCH_FIND
+        MENUITEM "Sostituisci..\tCtrl+S",       ID_SEARCH_REPLACE
+        MENUITEM "Ancora\tCtrl+Y",              ID_SEARCH_FINDNEXT
+        MENUITEM SEPARATOR
+        MENUITEM "Seleziona Tutto\tCtrl+A",     ID_EDIT_SELECTALL
+    END
+    POPUP "Imposta"
+    BEGIN
+        MENUITEM "Carattere..",                 ID_SET_FONT
+        MENUITEM SEPARATOR
+        MENUITEM "Seleziona Foglio",            ID_SELECT_EDITOR
+    END
+    POPUP "Prova"
+    BEGIN
+        MENUITEM "Esegui Selezione",            ID_TEST_SELECTION
+        MENUITEM "Esegui Tutto",                ID_TEST_ALL
+    END
+END
+
+IDR_WEB MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Apri ..",                     ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Stampa..",                    ID_FILE_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "Chiudi finestra",             ID_FILE_EXIT
+    END
+    POPUP "Navigazione"
+    BEGIN
+        MENUITEM "Indietro",                    ID_NAVIGATE_BACK
+        MENUITEM "Avanti",                      ID_NAVIGATE_FORWARD
+        MENUITEM "Home",                        ID_NAVIGATE_HOME
+        MENUITEM SEPARATOR
+        MENUITEM "Stop",                        ID_NAVIGATE_STOP
+        MENUITEM "Ricarica",                    ID_NAVIGATE_RELOAD
+    END
+    POPUP "Imposta"
+    BEGIN
+        POPUP "Carattere.."
+        BEGIN
+            MENUITEM "Minimo",                      ID_VIEW_FONTS_SMALLEST
+            MENUITEM "Piccolo",                     ID_VIEW_FONTS_SMALL
+            MENUITEM "Medio",                       ID_VIEW_FONTS_MEDIUM
+            MENUITEM "Grande",                      ID_VIEW_FONTS_LARGE
+            MENUITEM "Massimo",                     ID_VIEW_FONTS_LARGEST
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Mostra strumenti",            ID_VIEW_TOOLBAR
+        MENUITEM "Mostra stato",                ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Seleziona Browser",           ID_SELECT_BROWSER, GRAYED
+    END
+END
+
+IDR_TURTLE_OBJ MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Pulisci finestra",            ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Recupera..",                  ID_FILE_OPEN
+        MENUITEM "Conserva",                    ID_FILE_SAVE
+        MENUITEM "Conserva come..",             ID_FILE_SAVE_AS
+        MENUITEM "Importa immagine..",          ID_BITMAP_LOAD
+        MENUITEM "Esporta immagine..",          ID_OD_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "Stampa..",                    ID_FILE_PRINT
+        MENUITEM "Imposta Pagina..",            ID_FILE_PAGE_SETUP
+        MENUITEM "Anteprima di stampa",         ID_FILE_PRINT_PREVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Chiudi",                      ID_FILE_CLOSE
+    END
+    POPUP "Edita"
+    BEGIN
+        MENUITEM "Disfa\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "&Rifai\tCtrl+Y",              ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Taglia\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "Copia\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "Incolla\tCtrl+V",             ID_EDIT_PASTE
+        MENUITEM "Elimina\tDel",                ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Seleziona",                   ID_OD_DRAW_SELECT
+        MENUITEM "Edita i vertici",             ID_OD_EDIT_VERTICES
+        MENUITEM SEPARATOR
+        MENUITEM "Componenti..",                ID_OD_VIEW_COMPS
+        MENUITEM "Proprietà..",                 ID_OD_PROPERTIES
+        MENUITEM "Proprietà default..",         ID_OD_DEFAULT_PROPS
+    END
+    POPUP "Imposta"
+    BEGIN
+        MENUITEM "Carattere..",                 ID_SET_FONT
+        POPUP "Spessore Penna"
+        BEGIN
+            MENUITEM "+",                           ID_SET_PENPLUS
+            MENUITEM "-",                           ID_SET_PENMINUS
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Colore Penna..",              ID_SET_PENCOLOR
+        MENUITEM "Colore Riempimento..",        ID_SET_FLOODCOLOR
+        MENUITEM "Colore Sfondo..",             ID_SET_SCREENCOLOR
+        MENUITEM "Tavolozza..",                 ID_SET_PALETTE
+        MENUITEM SEPARATOR
+        MENUITEM "Mostra Stato",                ID_TURTLESTATUS_SHOW
+        MENUITEM SEPARATOR
+        MENUITEM "Seleziona Tarta",             ID_SELECT_TURTLE
+    END
+    POPUP "Vista"
+    BEGIN
+        MENUITEM "Toolbar",                     ID_VIEW_TOOLBAR
+        MENUITEM "Barra di stato",              ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Limiti di pagina",            ID_OD_PAGE_BOUNDS
+        MENUITEM SEPARATOR
+        MENUITEM "Griglia",                     ID_OD_GRID
+        MENUITEM "Ancoraggio alla griglia",     ID_OD_SNAP_TO_GRID
+        MENUITEM "Angoli discreti",             ID_OD_ANGLE_SNAP
+        MENUITEM "Proprietà della griglia..",   ID_OD_GRID_PROPS
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom Normale",                ID_OD_ZOOM_NORMAL
+        POPUP "Zoom Percentuale"
+        BEGIN
+            MENUITEM "&50%",                        ID_OD_ZOOM_50PCT
+            MENUITEM "&75%",                        ID_OD_ZOOM_75PCT
+            MENUITEM "&100%",                       ID_OD_ZOOM_100PCT
+            MENUITEM "&200%",                       ID_OD_ZOOM_200PCT
+        END
+        MENUITEM "Zoom personalizzato..",       ID_OD_ZOOM_CUSTOM
+        MENUITEM "Zoom al disegno",             ID_OD_ZOOM_FIT
+    END
+    MENUITEM SEPARATOR
+    POPUP "Figure"
+    BEGIN
+        MENUITEM "Linea",                       ID_OD_DRAW_LINE
+        MENUITEM "Spezzata",                    ID_OD_DRAW_POLYLINE
+        MENUITEM "Poligono",                    ID_OD_DRAW_POLYGON
+        MENUITEM "Rettangolo",                  ID_OD_DRAW_RECT
+        MENUITEM "Curva",                       ID_OD_DRAW_POLYCURVE
+        MENUITEM "Curva chiusa",                ID_OD_DRAW_CLOSEDCURVE
+        MENUITEM "Ellisse",                     ID_OD_DRAW_ELLIPSE
+        MENUITEM "Testo",                       ID_OD_DRAW_TEXT
+        MENUITEM "Immagine",                    ID_OD_DRAW_IMAGE
+        MENUITEM "Porta",                       ID_OD_DRAW_PORT
+    END
+    POPUP "Struttura"
+    BEGIN
+        MENUITEM "Raggruppa",                   ID_OD_GROUP
+        MENUITEM "Scomponi",                    ID_OD_UNGROUP
+        MENUITEM SEPARATOR
+        MENUITEM "Porta in cima",               ID_OD_FRONT
+        MENUITEM "Manda sul fondo",             ID_OD_BACK
+        MENUITEM "Porta avanti",                ID_OD_FORWARD
+        MENUITEM "Manda indietro",              ID_OD_BACKWARD
+    END
+    POPUP "Allinea"
+    BEGIN
+        MENUITEM "In alto",                     ID_OD_ALIGN_TOP
+        MENUITEM "A metà altezza",              ID_OD_ALIGN_MIDDLE
+        MENUITEM "In basso",                    ID_OD_ALIGN_BOTTOM
+        MENUITEM "A sinistra",                  ID_OD_ALIGN_LEFT
+        MENUITEM "Al centro",                   ID_OD_ALIGN_CENTER
+        MENUITEM "A destra",                    ID_OD_ALIGN_RIGHT
+    END
+    POPUP "Ruota"
+    BEGIN
+        MENUITEM "Rotazione libera",            ID_OD_FREE_ROTATE
+        MENUITEM "Ruota a sinistra",            ID_OD_ROTATE_LEFT
+        MENUITEM "Ruota a destra",              ID_OD_ROTATE_RIGHT
+        MENUITEM "Ribalta in orizzontale",      ID_OD_FLIP_HORIZONTAL
+        MENUITEM "Ribalta in verticale",        ID_OD_FLIP_VERTICAL
+    END
+    POPUP "Sposta"
+    BEGIN
+        MENUITEM "In sù",                       ID_OD_NUDGE_UP
+        MENUITEM "In giù",                      ID_OD_NUDGE_DOWN
+        MENUITEM "A sinistra",                  ID_OD_NUDGE_LEFT
+        MENUITEM "A destra",                    ID_OD_NUDGE_RIGHT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_EDITOR ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            ID_EDIT_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_SEARCH_FIND,         VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_SEARCH_REPLACE,      VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_CANCEL,      ID_EDIT_DELETE,         VIRTKEY, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_SEARCH_FINDNEXT,     VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 34, 22, 217, 55
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Su Iperlogo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Iperlogo, Vers. 4.07, Marzo 2004",IDC_STATIC,40,10,119,
+                    8,0,0,HIDC_STATIC
+    LTEXT           "Copyright © 1997,2003",IDC_STATIC,40,25,119,8
+    LTEXT           "di Link srl e Sisco srl, Roma",IDC_STATIC,40,40,119,8
+    DEFPUSHBUTTON   "OK",IDOK,176,6,32,14,WS_GROUP
+END
+
+IDD_IPERLOGO_FORM DIALOG DISCARDABLE  0, 0, 50, 50
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Esegui",IDC_EXEC,231,40,39,14,NOT WS_VISIBLE
+    LISTBOX         IDC_LIST1,0,0,280,40,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,0,40,280,14,ES_MULTILINE | ES_AUTOVSCROLL
+    EDITTEXT        IDC_EDIT2,0,0,49,40,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_LINE_DIALOG DIALOG DISCARDABLE  0, 0, 288, 40
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Inserisci una linea di testo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,238,24,50,14
+    EDITTEXT        IDC_LINE_EDIT,0,5,288,15,ES_AUTOHSCROLL
+END
+
+IDD_MODELESS DIALOG DISCARDABLE  10, 10, 186, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Modeless"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,6,50,14
+    PUSHBUTTON      "Annulla",IDCANCEL,130,23,50,14
+END
+
+IDD_MODAL DIALOG DISCARDABLE  10, 10, 185, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Modal"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,23,50,14
+END
+
+IDD_INPUT DIALOG DISCARDABLE  0, 0, 1, 1
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_KEYBOARD DIALOG DISCARDABLE  0, 0, 1, 1
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,0,0,1,1,ES_MULTILINE | NOT WS_VISIBLE | NOT 
+                    WS_BORDER | WS_HSCROLL
+END
+
+IDD_TURTLE_STATUS DIALOG DISCARDABLE  200, 15, 158, 216
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Stato dello Schermo Tarta"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,0,158,34
+    LTEXT           "FINESTRA",IDC_WIN_STATUS,4,4,68,8
+    LTEXT           "Posizione (x, y)",IDC_WIN_POS,4,15,53,8
+    EDITTEXT        IDC_WIN_POSX,80,14,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_WIN_POSY,118,14,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    LTEXT           "Dimensione (l, h)",IDC_WIN_DIM,4,24,66,8
+    EDITTEXT        IDC_WIN_DIMX,80,24,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_WIN_DIMY,118,24,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,36,158,50
+    LTEXT           "AREA UTILE",IDC_VIEW_STATUS,4,38,76,8
+    LTEXT           "Pixels (l, h)",IDC_VIEW_PIXEL,4,76,54,8
+    EDITTEXT        IDC_VIEW_PIXELX,80,76,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_VIEW_PIXELY,118,76,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    RTEXT           "Y-alto",IDC_VIEW_YHIGH,42,46,36,8
+    EDITTEXT        IDC_VIEW_YHIGH2,80,46,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "X-sinistra",IDC_VIEW_XLOW,4,56,36,8
+    EDITTEXT        IDC_VIEW_XLOW2,42,56,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "X-destra",IDC_VIEW_XHIGH,80,56,36,8
+    EDITTEXT        IDC_VIEW_XHIGH2,118,56,36,8,ES_CENTER | ES_MULTILINE | 
+                    NOT WS_BORDER
+    RTEXT           "Y-basso",IDC_VIEW_YLOW,42,66,36,8
+    EDITTEXT        IDC_VIEW_YLOW2,80,66,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,88,158,23
+    LTEXT           "PENNA",IDC_PEN_STATUS,4,91,76,8
+    EDITTEXT        IDC_PEN_CONTACT2,80,91,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    LTEXT           "Spessore",IDC_PEN_WIDTH1,4,101,36,8
+    EDITTEXT        IDC_PEN_WIDTH2,42,101,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    CTEXT           "Stile",IDC_PEN_STYLE1,80,101,36,8
+    EDITTEXT        IDC_PEN_STYLE2,118,101,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,113,158,23
+    LTEXT           "FONT",IDC_PEN_FONT,4,115,36,8
+    EDITTEXT        IDC_FONT_NAME2,42,115,112,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER
+    LTEXT           "Dimensione",IDC_FONT_SIZE1,4,126,36,8
+    EDITTEXT        IDC_FONT_SIZE2,42,125,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    CTEXT           "Peso",IDC_FONT_WEIGHT1,80,126,36,8
+    EDITTEXT        IDC_FONT_WEIGHT2,118,125,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,138,158,32
+    LTEXT           "TARTA",IDC_PEN_TURTLE,4,139,76,8
+    EDITTEXT        IDC_TURTLE_VISIBILITY2,80,140,74,8,ES_CENTER | 
+                    ES_MULTILINE | ES_AUTOHSCROLL | WS_DISABLED | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Posizione (x, y)",IDC_TURTLE_POS1,4,150,50,8
+    EDITTEXT        IDC_TURTLE_POSX,80,150,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_TURTLE_POSY,118,150,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    LTEXT           "Direzione",IDC_TURTLE_HEADING1,4,160,42,8
+    EDITTEXT        IDC_TURTLE_HEADING2,80,160,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,172,158,42
+    LTEXT           "COLORI (R, G, B)",IDC_PEN_COLOR,4,174,76,8
+    LTEXT           "Penna",IDC_COLOR_PEN1,4,184,50,8
+    EDITTEXT        IDC_COLOR_PENG,88,184,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_COLOR_PENR,54,184,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_COLOR_PENB,122,184,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    LTEXT           "Riempimento",IDC_COLOR_FLOOD1,4,194,50,8
+    EDITTEXT        IDC_COLOR_FLOODG,88,194,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_COLOR_FLOODR,54,194,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_COLOR_FLOODB,122,194,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    LTEXT           "Sfondo",IDC_COLOR_SCREEN1,4,204,50,8
+    EDITTEXT        IDC_COLOR_SCREENG,88,204,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_COLOR_SCREENR,54,204,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_COLOR_SCREENB,122,204,30,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_TURTLE_NAME2,80,4,74,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+END
+
+IDD_ACTIVE_AREA DIALOG DISCARDABLE  0, 0, 189, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Imposta l'area attiva"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,143,70,46,14
+    PUSHBUTTON      "Annulla",IDCANCEL,96,70,46,14
+    PUSHBUTTON      "Ripristina",IDRESET,48,70,46,14
+    LTEXT           "Y-Max",IDC_YHIGH,65,7,27,8
+    LTEXT           "Y-Min",IDC_YLOW,65,50,27,8
+    EDITTEXT        IDC_AREA_YHIGH,93,7,30,9,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_AREA_YLOW,93,50,30,9,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "X-Min",IDC_XLOW,10,28,27,8
+    EDITTEXT        IDC_AREA_XLOW,41,27,30,9,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "X-Max",IDC_XHIGH,122,28,27,8
+    EDITTEXT        IDC_AREA_XHIGH,150,27,30,9,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Da Selezione",IDSELECTION,0,70,46,14
+END
+
+IDD_MAIN_STATUS DIALOG DISCARDABLE  200, 15, 120, 52
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Stato del kernel di Iperlogo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,0,3,118,48
+    CTEXT           "Nodi",IDC_NODES_STATUS,20,5,57,8
+    LTEXT           "Totale",IDC_NODES_TOTAL,4,15,38,8
+    LTEXT           "Usati",IDC_NODES_USED,4,27,38,8
+    LTEXT           "Disponibili",IDC_NODES_FREE,4,39,38,8
+    EDITTEXT        IDC_NODES_TOTAL2,71,15,42,9,ES_RIGHT | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_NODES_FREE2,71,39,42,9,ES_RIGHT | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_NODES_USED2,71,27,42,9,ES_RIGHT | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+END
+
+IDD_SELPROC DIALOG DISCARDABLE  100, 65436, 188, 104
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Scegli una procedura Logo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Tutte",IDALL,137,3,50,14
+    DEFPUSHBUTTON   "OK",IDOK,137,69,50,14
+    PUSHBUTTON      "Annulla",IDCANCEL,136,88,50,14
+    COMBOBOX        IDC_SELPROC,0,3,134,101,CBS_SIMPLE | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_TURTLE_NEW DIALOG DISCARDABLE  100, 15, 158, 116
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Nuovo Schermo Grafico"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,0,1,158,45
+    LTEXT           "FINESTRA",IDC_WIEW_WIN,4,5,38,8
+    EDITTEXT        IDC_VIEW_NAME2,80,15,74,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER
+    LTEXT           "Nome",IDC_VIEW_NAME,4,16,28,8
+    LTEXT           "Posizione (x, y)",IDC_WIN_POS,4,27,53,8
+    EDITTEXT        IDC_WIN_POSX,80,26,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_WIN_POSY,118,26,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER
+    LTEXT           "Dimensione (l, h)",IDC_WIN_DIM,4,36,53,8
+    EDITTEXT        IDC_WIN_DIMX,80,36,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_WIN_DIMY,118,36,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,0,49,158,50
+    LTEXT           "AREA UTILE",IDC_VIEW_STATUS,4,51,76,8
+    LTEXT           "Pixels (l, h)",IDC_VIEW_PIXEL,4,89,54,8
+    EDITTEXT        IDC_VIEW_PIXELX,80,89,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_VIEW_PIXELY,118,89,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Y-alto",IDC_VIEW_YHIGH,42,59,36,8
+    EDITTEXT        IDC_VIEW_YHIGH2,80,59,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER
+    RTEXT           "X-sinistra",IDC_VIEW_XLOW,4,69,36,8
+    EDITTEXT        IDC_VIEW_XLOW2,42,69,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER
+    RTEXT           "X-destra",IDC_VIEW_XHIGH,80,69,36,8
+    EDITTEXT        IDC_VIEW_XHIGH2,118,69,36,8,ES_CENTER | ES_MULTILINE | 
+                    NOT WS_BORDER
+    RTEXT           "Y-basso",IDC_VIEW_YLOW,42,79,36,8
+    EDITTEXT        IDC_VIEW_YLOW2,80,79,36,8,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER
+    DEFPUSHBUTTON   "OK",IDOK,2,102,46,14
+    PUSHBUTTON      "Annulla",IDCANCEL,110,102,46,14
+    PUSHBUTTON      "Ripristina",IDRESET,56,102,46,14
+    CONTROL         "",IDC_VIEW_MODE2,"Button",BS_AUTOCHECKBOX,145,4,9,8
+    LTEXT           "modalità a oggetti",IDC_WIN_MODE,79,4,56,8,NOT WS_GROUP
+END
+
+IDD_REGISTER DIALOG DISCARDABLE  34, 22, 317, 145
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Registrazione di questa istallazione di Iperlogo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,264,127,52,14,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Annulla",IDCANCEL,2,127,52,14,NOT WS_TABSTOP
+    LTEXT           "Codice di Registrazione",IDC_TEXT_CODE,3,62,142,11,NOT 
+                    WS_GROUP
+    EDITTEXT        IDC_EDIT_CODE,149,61,166,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TEXT_STATUS,1,103,316,15,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Registra",IDREGISTER,133,127,52,14,NOT WS_TABSTOP
+    LTEXT           "Scuola (o altro) + nome della postazione",
+                    IDC_TEXT_COMPANY,3,23,142,11,NOT WS_GROUP
+    EDITTEXT        IDC_EDIT_COMPANY,149,22,166,15,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "Titolare (nome e cognome del responsabile)",
+                    IDC_TEXT_NAME,3,5,142,11,NOT WS_GROUP
+    EDITTEXT        IDC_EDIT_NAME,149,4,166,15,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "Codice di identificazione",IDC_TEXT_SERIAL,3,42,142,11,
+                    NOT WS_GROUP
+    EDITTEXT        IDC_EDIT_SERIAL,149,41,166,15,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "Livello di Registrazione",IDC_TEXT_ACCESS,3,81,142,11,
+                    NOT WS_GROUP
+    EDITTEXT        IDC_EDIT_ACCESS,149,81,41,15,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_TABSTOP
+END
+
+IDD_USAGE DIALOG DISCARDABLE  34, 22, 168, 87
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Statistiche di uso"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,62,69,44,14,NOT WS_TABSTOP
+    LTEXT           "Tempo di uso totale",IDC_TEXT_TOTAL,5,23,75,11,NOT 
+                    WS_GROUP
+    EDITTEXT        IDC_EDIT_TOTAL,94,22,69,15,ES_AUTOHSCROLL | WS_DISABLED | 
+                    NOT WS_TABSTOP
+    LTEXT           "Numero esecuzioni",IDC_TEXT_TIMES,5,5,75,11,NOT 
+                    WS_GROUP
+    EDITTEXT        IDC_EDIT_TIMES,95,4,39,15,ES_AUTOHSCROLL | WS_DISABLED | 
+                    NOT WS_TABSTOP
+    LTEXT           "Tempo di uso ultimo",IDC_TEXT_LAST,5,42,75,11,NOT 
+                    WS_GROUP
+    EDITTEXT        IDC_EDIT_LAST,94,41,69,15,ES_AUTOHSCROLL | WS_DISABLED | 
+                    NOT WS_TABSTOP
+END
+
+IDD_WELCOME DIALOG DISCARDABLE  110, 65426, 220, 220
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,90,204,40,14
+END
+
+IDD_PALETTE DIALOGEX 110, 65426, 208, 226
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | 
+    WS_VISIBLE | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Tavolozza di Iperlogo"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,167,212,40,14
+    PUSHBUTTON      "Annulla",IDCANCEL,168,195,39,14
+    PUSHBUTTON      "Penna",ID_PEN,4,212,35,14,0,0,HID_PEN
+    PUSHBUTTON      "Sfondo",ID_BK,54,212,35,14,0,0,HID_BK
+    PUSHBUTTON      "Riempi",ID_FILL,104,212,35,14,0,0,HID_FILL
+    LTEXT           "Assegna a ..",IDC_SET,47,199,46,10
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 186, 97
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_BROWSER_DIALOGBAR DIALOG DISCARDABLE  0, 0, 373, 16
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,14,2,359,12,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    WS_GROUP
+    DEFPUSHBUTTON   "->",ID_GO,0,2,13,13,BS_NOTIFY
+END
+
+IDD_SELGLOSS DIALOGEX 100, 65436, 307, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Scegli le voci del Glossario di Iperlogo"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Ripristina",IDALL,233,118,50,14
+    DEFPUSHBUTTON   "OK",IDOK,233,99,50,14
+    PUSHBUTTON      "Annulla",IDCANCEL,233,137,50,14
+    COMBOBOX        IDC_LIST_CAT,0,15,100,139,CBS_SIMPLE | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_LIST_ENV,103,15,100,139,CBS_SIMPLE | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Parole come ...",IDC_STATIC_INI,207,1,100,13,
+                    SS_CENTERIMAGE | WS_BORDER
+    CTEXT           "Categoria",IDC_STATIC_CAT,0,1,100,13,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Ambiente",IDC_STATIC_ENV,103,1,100,13,SS_CENTERIMAGE | 
+                    WS_BORDER,0,HIDC_STATIC_ENV
+    EDITTEXT        IDC_TEXT_INI,207,15,100,13,ES_AUTOHSCROLL
+    CONTROL         "Check1",IDC_CHECK_NOALIAS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,208,45,8,8
+    LTEXT           "Escludi alias",IDC_STATIC,220,45,87,10
+    CONTROL         "Check1",IDC_CHECK_SUPERLOGO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,208,57,8,8
+    LTEXT           "Solo Superlogo",IDC_STATIC,220,57,87,10
+    CONTROL         "Check1",IDC_CHECK_IPERLOGO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,208,69,8,8
+    LTEXT           "Solo novità Iperlogo",IDC_STATIC,220,69,87,10
+END
+
+IDD_NMUI DIALOG DISCARDABLE  50, 50, 350, 308
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Integra"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Chiama",IDOK,7,7,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Accetta",IDCANCEL,300,7,50,14,NOT WS_VISIBLE
+    CONTROL         "IPAddress1",IDC_NM_IPADDRESS,"SysIPAddress32",NOT 
+                    WS_VISIBLE | WS_TABSTOP,57,7,94,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP16            BITMAP  DISCARDABLE     "RES\\16C.BMP"
+IDB_BITMAP16M           BITMAP  DISCARDABLE     "RES\\16M.BMP"
+IDB_BITMAP256           BITMAP  DISCARDABLE     "RES\\256.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_USAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 163
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_PALETTE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_BROWSER_DIALOGBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 366
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 14
+    END
+
+    IDD_NMUI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 301
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Iperlogo per Windows\nFinestra dei comandi\nProgramma\n Programmi Iperlogo (*.il)\n.il\nProgrammaIperlogo\nProgramma Iperlogo"
+    IDS_VERSION             "40705"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Iperlogo per Windows"
+    AFX_IDS_IDLEMESSAGE     "Per chiedere Aiuto, premi il tasto F1"
+    AFX_IDS_HELPMODEMESSAGE "Scegli l'oggetto su cui ti serve Aiuto"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Apre un documento esistente"
+    ID_FILE_CLOSE           "Chiude il documento attivo"
+    ID_FILE_SAVE            "Salva tutto il testo su file"
+    ID_FILE_SAVE_AS         "Salva gli oggetti Logo su file, specificandone il nome"
+    ID_FILE_PAGE_SETUP      "Change the printing options"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options"
+    ID_FILE_PRINT           "Stampa tutto il testo"
+    ID_FILE_PRINT_PREVIEW   "Display full pages"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Mostra informazione su programma, versione e copyright"
+    ID_APP_EXIT             "Abbandona l'applicazione IperLogo"
+    ID_HELP_INDEX           "Elenca gli argomenti su cui chiedere Aiuto"
+    ID_HELP_USING           "Mostra le parole con significato assegnato da Iperlogo"
+    ID_CONTEXT_HELP         "Mostra informazioni sui bottoni, i menu e le finestre clickati"
+    ID_HELP                 "Mostra informazion sul compito o comando corrente"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane"
+    ID_PREV_PANE            "Switch back to the previous window pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Butta la selezione"
+    ID_EDIT_CLEAR_ALL       "Butta tutto"
+    ID_EDIT_COPY            "Copia la selezione e la inserisce nel blocco note"
+    ID_EDIT_CUT             "Taglia la selezione e inseriscila nel blocco note"
+    ID_EDIT_FIND            "Trova il testo specificato"
+    ID_EDIT_PASTE           "Inserisci il contenuto del blocco note"
+    ID_EDIT_REPEAT          "Ripeti l'ultima azione"
+    ID_EDIT_REPLACE         "Metti il nuovo testo  al posto di quello specificato"
+    ID_EDIT_SELECT_ALL      "Seleziona l'intero contenuto del Foglio"
+    ID_EDIT_UNDO            "Disfa l'ultima azione"
+    ID_EDIT_REDO            "Rifai l'azione appena disfata"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BITMAP_LOAD          "Carica nello schermo Tarta selezionato il disegno rappresentato su file come bitmap"
+    ID_BITMAP_SAVE          "Salva il contenuto dello schermo Tarta su file, come una bitmap"
+    ID_BITMAP_SAVEAS        "Salva il contenuto dello schermo Tarta su file, specificandone il nome"
+    ID_BITMAP_PRINT         "Stampa il contenuto dello schermo Tarta"
+    ID_PRINT_SETUP          "Imposta la stampante"
+    ID_BITMAP_ACTIVEAREA    "Definisci l'area di schermo interessata alle operazioni Recupera, Conserva e Stampa"
+    ID_FILE_EDIT            "Edita una procedura Logo"
+    ID_FILE_ERASE           "Cancella oggetti Logo"
+    ID_FILE_LOAD            "Leggi il testo contenuto in un file"
+    ID_EDIT_DELETE          "Taglia la selezione senza inserirla nel blocco note"
+    ID_SEARCH_FINDNEXT      "Ripeti ultima comando Trova o Sostituisci"
+    ID_FILE_EXIT            "Chiudi la finestra di browser"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOWS_TURTLE       "Crea nuova finestra grafica (TARTA)"
+    ID_TURTLESTATUS_SHOW    "Mostra lo stato della finestra TARTA"
+    ID_FILE_PRINTSETUP      "Seleziona la stampante e imposta i parametri di stampa"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPTION_SHOWSTATE     "Mostra stato del nucleo interno di Iperlogo"
+    ID_OPTION_TRACE         "Traccia l'execuzione di primitive e procedure"
+    ID_EXEC                 "Esegui il contenuto della linea di ingresso comandi"
+    ID_OPTION_SHOWSTATUS    "Mostra parte dello stato dell'interprete dei comandi"
+    ID_FILE_SAVEAS          "Salva tutto il testo su file, specificando il nome"
+    ID_WINDOWS_EDITOR       "Crea nuova finestra di editor (FOGLIO)"
+    ID_FILE_CLEAR           "Pulisci la finestra dei comandi"
+    ID_HALT                 "Interrompi l'esecuzione dei comandi Logo"
+    ID_PAUSE                "Sospendi l'esecuzione della procedura attiva"
+    ID_OPTION_FONT          "Imposta il font della finestra dei comandi"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_EXECANDEXIT     "Esegui il testo e poi chiudi la finestra di editor"
+    ID_SET_FONT             "Imposta il font dei caratteri"
+    ID_SET_PENCOLOR         "Imposta il colore del testo"
+    ID_SET_FLOODCOLOR       "Imposta il colore di riempimento"
+    ID_SET_SCREENCOLOR      "Imposta il colore dello sfondo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPTION_CASE          "Non distingue maiuscole e minuscole nelle primitive di confronto"
+    ID_IMPOSTA_SPESSOREPENNA "Decrementa lo spessore del tratto di penna"
+    ID_SET_PENPLUS          "Incrementa lo spessore del tratto di penna"
+    ID_OPTION_ECO           "Eco dei comandi batch (recupera)"
+    ID_OPTION_PROMPT        "Sollecita la digitazione della linea di comando"
+    ID_OPTION_ECOINT        "Eco dei comandi interattivi (tastiera o mouse)"
+    ID_MENUITEM32859        "Seleziona come finestra TARTA attiva"
+    ID_SELECT_TURTLE        "Seleziona come finestra TARTA attiva"
+    ID_SELECT               "Seleziona area per composizione"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SET_PALETTE          "Visualizza / modifica la palette dei colori"
+    ID_OPTION_PROFILE       "Aggiornamento automatico delle impostazioni in Iperlogo.ini"
+    ID_WINDOWS_PLAYER       "Crea nuova finestra per controllo MCI (MultiMedia)"
+    ID_WINDOWS_BROWSER      "Crea nuova finestra per browser Web (HTML)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SELECT_EDITOR        "Seleziona come finestra FOGLIO attiva"
+    ID_SELECT_BROWSER       "Seleziona come finestra BROWSER attiva"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OD_PAGE_BOUNDS       "Show or hide the page boundaries\nToggle Page Bounds"
+    ID_OD_PROPERTIES        "Show the properties of the selected symbol(s)\nProperties"
+    ID_OD_ROTATE_LEFT       "Rotate 90 degrees counter clockwise\nRotate Left"
+    ID_OD_ROTATE_RIGHT      "Rotate 90 degrees clockwise\nRotate Right"
+    ID_OD_SNAP_TO_GRID      "Snap symbols to grid\nSnap to Grid"
+    ID_OD_UNGROUP           "Ungroup components\nUngroup"
+    ID_OD_VIEW_COMPS        "List components on canvas\nView Components"
+    ID_OD_ZOOM_100PCT       "Zoom to 100% Scale (1:1)\nZoom 100%"
+    ID_OD_ZOOM_200PCT       "Zoom to 200% Scale\nZoom 200%"
+    ID_OD_ZOOM_50PCT        "Zoom to 50% Scale\nZoom 50%"
+    ID_OD_ZOOM_75PCT        "Zoom to 75% Scale\nZoom 75%"
+    ID_OD_ZOOM_CUSTOM       "Set Custom Zoom Factors\nZoom Custom"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OD_ALIGN_BOTTOM      "Align bottoms\nAlign Bottom"
+    ID_OD_ALIGN_CENTER      "Align centers\nAlign Center"
+    ID_OD_ALIGN_LEFT        "Align lefts\nAlign Left"
+    ID_OD_ALIGN_MIDDLE      "Align middles\nAlign Middle"
+    ID_OD_ALIGN_RIGHT       "Align rights\nAlign Right"
+    ID_OD_ALIGN_TOP         "Align tops\nAlign Top"
+    ID_OD_ANGLE_SNAP        "Snap symbols to 15 degree angle increments\nAngle Snap"
+    ID_OD_BACK              "Send to back\nBack"
+    ID_OD_BACKWARD          "Send backward\nBackward"
+    ID_OD_DEFAULT_PROPS     "Show the default properties for the canvas."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OD_EDIT_VERTICES     "Edit the individual vertices\nEdit Vertices"
+    ID_OD_FLIP_HORIZONTAL   "Flip around the vertical center\nFlip Vertical"
+    ID_OD_FLIP_VERTICAL     "Flip around the horizontal center\nFlip Horizontal"
+    ID_OD_FORWARD           "Bring forward\nForward"
+    ID_OD_FREE_ROTATE       "Rotate components\nRotate"
+    ID_OD_FRONT             "Bring to front\nFront"
+    ID_OD_GRID              "Show or hide the grid\nToggle Grid"
+    ID_OD_GRID_PROPS        "Set the grid properties\nGrid Properties"
+    ID_OD_GROUP             "Group components\nGroup"
+    ID_OD_NUDGE_DOWN        "Nudge down\nNudge Down"
+    ID_OD_NUDGE_LEFT        "Nudge left\nNudge Left"
+    ID_OD_NUDGE_RIGHT       "Nudge right\nNudge Right"
+    ID_OD_NUDGE_UP          "Nudge up\nNudge Up"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OD_ZOOM_FIT          "Zoom so that all components are visible.\nZoom to Fit"
+    ID_OD_ZOOM_NORMAL       "Zoom to Normal Scale (100%)\nZoom Normal"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OD_DRAW_CLOSEDCURVE  "Draw a polycurve with connecting start and end points\nClosed Curve"
+    ID_OD_DRAW_ELLIPSE      "Draw an ellipse\nEllipse"
+    ID_OD_DRAW_IMAGE        "Insert an image\nImage"
+    ID_OD_DRAW_LINE         "Draw a single line\nLine"
+    ID_OD_DRAW_POLYCURVE    "Draw a series of connected curves\nPolycurve"
+    ID_OD_DRAW_POLYGON      "Draw a polygon\nPolygon"
+    ID_OD_DRAW_POLYLINE     "Draw a multi-segmented line\nPolyline"
+    ID_OD_DRAW_PORT         "Insert a port\nPort"
+    ID_OD_DRAW_RECT         "Draw a rectangle\nRectangle"
+    ID_OD_DRAW_SELECT       "Select or move components\nSelect"
+    ID_OD_DRAW_TEXT         "Insert text\nText"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_IMPORTSYMBOL         "Import Objective Diagram 1.0/1.01 Symbol\nInport Symbol"
+END
+
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "res\iperlogo.rc2"  // non-App Studio edited resources
+
+#include "afxres.rc"  	// Standard components
+#include "afxprint.rc"	// printing/print preview resources
+#include "OdRes.rc"	// Objective Views resources
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,877 @@
+{\rtf1\ansi\deflang1040
+{\fonttbl
+{\f0\froman Times New Roman;}
+{\f1\froman Symbol;} {\f2\fswiss Arial;}
+{\f3\froman MS Serif;} {\f4\fswiss MS Sans Serif;}
+{\f5\fmodern Courier;} {\f6\fdecor Zapf Dingbats;}
+{\f7\fswiss Helvetica Condensed;} {\f8\fswiss Helvetica;}}
+{\colortbl\red0\green0\blue0;
+\red0\green0\blue255; \red0\green255\blue255; \red0\green255\blue0;
+\red255\green0\blue255; \red255\green0\blue0; \red255\green255\blue0;
+\red255\green255\blue255; \red0\green0\blue127; \red0\green127\blue127;
+\red0\green127\blue0; \red127\green0\blue127; \red127\green0\blue0;
+\red127\green127\blue0; \red127\green127\blue127; \red192\green192\blue192;
+}
+\f0\fs24 #{\footnote {\f0\fs20 #
+A
+}}\par{\f0\fs24\b 
+A
+}\par {\f0\fs22\b Sintassi} \par {\f0\fs20
+A 100
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ACASO
+}}\par{\f0\fs24\b 
+ACASO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+ACASO è una funzione il cui  valore è un numero scelto a caso fra i numeri interi non negativi, minori  della parte intera dell’argomento <numero>.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ACCAPO
+}}\par{\f0\fs24\b 
+ACCAPO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ACCHIAPPA
+}}\par{\f0\fs24\b 
+ACCHIAPPA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ACTIVEAREA
+}}\par{\f0\fs24\b 
+ACTIVEAREA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ALP
+}}\par{\f0\fs24\b 
+ALP
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ALTRIMENTI
+}}\par{\f0\fs24\b 
+ALTRIMENTI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+AMB
+}}\par{\f0\fs24\b 
+AMB
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+La funzione logica AMB ha valore VERO se tutti i suoi argomenti sono veri. In caso contrario, e cioè se almeno uno degli argomenti è falso, AMB ha valore FALSO.
+Se gli argomenti di AMB sono più di due è necessario raccogliere la primitiva ed argomenti fra parentesi tonde.
+AMB si usa generalmente in congiunzione con le primitive TEST o SE per realizzare dei test multipli
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ANALIZZA
+}}\par{\f0\fs24\b 
+ANALIZZA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Riporta la lista che risulterebbe se la parola data come input fosse stata inserita in risposta ad un’operazione di LEGGILISTA. In altri termini, ANALIZZA LEGGIPAROLA ha lo stesso valore di LEGGILISTA per gli stessi caratteri letti.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ANALIZZAEDESEGUI
+}}\par{\f0\fs24\b 
+ANALIZZAEDESEGUI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+AND
+}}\par{\f0\fs24\b 
+AND
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+AP
+}}\par{\f0\fs24\b 
+AP
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+APERTO
+}}\par{\f0\fs24\b 
+APERTO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Argomento di ASCAMPO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+APPENDI
+}}\par{\f0\fs24\b 
+APPENDI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+APPLICA
+}}\par{\f0\fs24\b 
+APPLICA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+APRI
+}}\par{\f0\fs24\b 
+APRI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ARCAPERTI
+}}\par{\f0\fs24\b 
+ARCAPERTI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ARCHIVIO
+}}\par{\f0\fs24\b 
+ARCHIVIO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ARCHIVIO?
+}}\par{\f0\fs24\b 
+ARCHIVIO?
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ARCO
+}}\par{\f0\fs24\b 
+ARCO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ARCTAN
+}}\par{\f0\fs24\b 
+ARCTAN
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+fornisce la cotangente di <n>
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ARRAY
+}}\par{\f0\fs24\b 
+ARRAY
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ARRAY?
+}}\par{\f0\fs24\b 
+ARRAY?
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ARRO
+}}\par{\f0\fs24\b 
+ARRO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Questa funzione fornisce il numero intero che si ottiene arrotondando il valore del suo argomento. I numeri vengono arrotondati al valore più vicino: quindi il valore di.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+AS
+}}\par{\f0\fs24\b 
+AS
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Questa primitiva assegna il valore <oggetto> alla variabile identificata da <parola>. La variabile <oggetto> può rappresentare qualunque oggetto Iperlogo, e può anche derivare dalla valutazione di una espressione.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASATTR
+}}\par{\f0\fs24\b 
+ASATTR
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCAMPO
+}}\par{\f0\fs24\b 
+ASCAMPO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Possiede tre argomenti: APERTO, CHIUSO e CIRCOLARE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCIFRE
+}}\par{\f0\fs24\b 
+ASCIFRE
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Definisce la precisione in uscita.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCII
+}}\par{\f0\fs24\b 
+ASCII
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+La funzione ASCII riporta un numero compreso tra 0  e 255 che rappresenta il codice ASCII del primo carattere dell’argomento. Le lettere dell’alfabeto e gli altri simboli che possono apparire sullo schermo sono rappresentati infatti all’interno del computer con dei numeri. Il codice ASCII, cioè la tabella di corrispondenza caratteri-numeri è riportato in appendice. Il set di caratteri del Pc Ibm (e personal compatibili)non comprende solo l’ ASCII standard (codici da 0 a 127) ma anche una serie di caratteri addizionali (codici da 128 a 255). Questi caratteri possono essere usati senza problemi sullo schermo ma alcune periferiche, come certe stampanti, non li decodificano correttamente. E’ quindi sconsigliabile usarli in testi che dovranno poi essere trasmessi ad una periferica di questo tipo. Il manuale di ogni dispositivo periferico che comunica con il computer mediante codici ASCII  contiene generalmente una descrizione del modo con cui interpreta tali codici. La funzione inversa di ASCII è CAR che permette di ottenere il carattere partendo dal codice.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCOL
+}}\par{\f0\fs24\b 
+ASCOL
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Assegna colore alla traccia della tartaruga
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCOLPENNA
+}}\par{\f0\fs24\b 
+ASCOLPENNA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Assegna colore alla traccia della tartaruga
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCOLRIEMPI
+}}\par{\f0\fs24\b 
+ASCOLRIEMPI
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Assegna come colore di riempimento il colore risultante dalla lista di tre numeri da 0 a 255, che rappresentano le quantità di rosso, di verde e di blu necessarie per ottenere il colore richiesto. Per una scelta rapida del colore è anche possibile servirsi del Menù Imposta della Finestra Tarta. Il colore prescelto ha effetto sui comandi RIEMPI e BITBLOCK.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCOLTESTO
+}}\par{\f0\fs24\b 
+ASCOLTESTO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCOM
+}}\par{\f0\fs24\b 
+ASCOM
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASCURSORE
+}}\par{\f0\fs24\b 
+ASCURSORE
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+La primitiva ASCURSORE permette di posizionare il cursore nella parte di schermo destinata ai comandi.
+Il suo argomento è una lista di due numeri, il primo dei quali indica la riga e il secondo la colonna.
+Le righe di schermo sono numerate da 0 a 24 e le colonne da 0 a 39 o da 0 a 79. ASCURSORE non può scrivere caratteri nella parte di schermo utilizzata dalla tartaruga o dal foglio. Quindi se lo schermo è “MISTO” alcune righe non saranno accessibili.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASDIR
+}}\par{\f0\fs24\b 
+ASDIR
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Il comando ASDIR determina la direzione di avanzamento  della tartaruga. L’argomento  <numero> indica la direzione prescelta in gradi. Come in un sistema di riferimento di tipo bussola, 0 gradi corrispondono al Nord (l’alto dello schermo) e, aumentando i gradi, si ruota la direzione in senso orario.
+Diversamente dai comandi SINISTRA e DESTRA, che fanno eseguire alla tartaruga una rotazione, il cui risultato dipende dalla posizione precedente della tartaruga,  il comando ASDIR assegna alla tartaruga una direzione assoluta, ovvero indipendente dalla posizione che la tartaruga aveva in precedenza.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASDISCO
+}}\par{\f0\fs24\b 
+ASDISCO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASECO
+}}\par{\f0\fs24\b 
+ASECO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASELE indice array valore
+}}\par{\f0\fs24\b 
+ASELE indice array valore
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASFONTESTO
+}}\par{\f0\fs24\b 
+ASFONTESTO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+L’input è una lista strutturata che descrive completamente il font del testo: il font descrive l’aspetto che avranno i caratteri che verranno inseriti col comando ETICHETTA sullo schermo grafico. I diversi font disponibili variano da computer a computer. La cosa più semplice è selezionare il font desiderato dal Menù Imposta della finestra Tarta: in questo modo si apre una finestra che permette di stabilire tipo, stile e dimensione del testo.
+Un’altra possibilità è di fare uso del comando ASFONTESTO, il cui argomento deve essere una lista contenente le seguenti informazioni: 
+[[Tipo] Altezza Larghezza Orientamento Peso Corsivo Sottolineato Barrato CharSet OutPrecision ClipPrecision Qualità PitchAndFamily]
+in cui si intende per:
+Tipo: (lista) specificare il nome del carattere tipografico prescelto.
+Altezza: (intero) specificare l’altezza desiderata, in unità logiche, per il font.
+Larghezza: (intero) specificare la larghezza desiderata, in unità logiche, per il font.
+Orientamento: specificare l’orientamento desiderato, in gradi, per il font.
+Peso: specificare il peso del font: esso può variare tra 0 e 999 per incrementi 100. Il valore 0 fa usare ad Iperlogo il peso di default.
+Corsivo: (intero) specificare che si desidera il corsivo con un numero diverso da zero.
+Sottolineato: (intero) specificare che si desidera del testo sottolineato con un numero diverso da zero.
+Barrato: (intero) specificare che si desidera del testo barrato con un numero diverso da zero.
+I valori successivi sono riservati all’uso da parte di programmatori, si consiglia pertanto di utilizzare esclusivamente i valori suggeriti negli esempi..
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASHIFT
+}}\par{\f0\fs24\b 
+ASHIFT
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASLISTAPROP
+}}\par{\f0\fs24\b 
+ASLISTAPROP
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASMAIUSCOLE
+}}\par{\f0\fs24\b 
+ASMAIUSCOLE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASMODO
+}}\par{\f0\fs24\b 
+ASMODO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASMOTIVOPENNA
+}}\par{\f0\fs24\b 
+ASMOTIVOPENNA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASPENNA
+}}\par{\f0\fs24\b 
+ASPENNA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Questo comando assegna alla penna con cui disegna la tartaruga il modo, il colore e la tavolozza indicati in  <lista>. Il primo dei tre elementi di <lista> specifica il modo ( SU, GIU, CANCEPENNA o INVERPENNA), il secondo elemento è una lista di tre numeri compresi tra 0 e 255 che indica il colore da usare (vedi ASCOLPENNA); il terzo elemento può essere 0 o 1 ed indica la “tavolozza” che si vuole usare (vedi ASTAVOLOZZA).
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASPETTA tempo
+}}\par{\f0\fs24\b 
+ASPETTA tempo
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+E’ un comando che ritarda l’esecuzione di un comando. L’argomento è espresso in sessantesimi di secondo.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASPROP
+}}\par{\f0\fs24\b 
+ASPROP
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Permette di assegnare o modificare il valore di una proprietà per una parola. Ad ogni parola presente nello spazio di lavoro è infatti associata una “lista di proprietà” che contiene i nomi di tutte le proprietà della  parola  per la quale è stato definito il valore con ASPROP. Se per una parola non è stata definita alcuna proprietà, la lista ad essa associata è vuota. Ciascuna proprietà appartenente alla lista associata ad una parola ha una valore. Si tratta di un modo con cui Iperlogo può “sapere” ad esempio che il numero telefonico di Maria è 65 43 123: questo fatto si esprime dicendo che la proprietà TELEFONO della parola MARIA ha il valore 65 43 123 e di conseguenza la coppia di oggetti TELEFONO 45 63 123 deve essere aggiunta alla lista delle proprietà di MARIA. Il comando ASPROP permette di aggiungere nuove proprietà alla lista associata a una parola o di modificare il valore di proprietà esistenti. Il primo argomento di ASPROP indica la parola cui si vuole assegnare la proprietà; il secondo argomento indica il nome della proprietà ed il terzo il suo valore. Una stessa proprietà può avere valori diversi per parole diverse.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASRIGHE
+}}\par{\f0\fs24\b 
+ASRIGHE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASSCALAFIN
+}}\par{\f0\fs24\b 
+ASSCALAFIN
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASSCHERMO
+}}\par{\f0\fs24\b 
+ASSCHERMO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASSCHIA
+}}\par{\f0\fs24\b 
+ASSCHIA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASSFONCAR
+}}\par{\f0\fs24\b 
+ASSFONCAR
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASSFONDO
+}}\par{\f0\fs24\b 
+ASSFONDO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Un comando ASSFONDO assegna allo sfondo dello schermo grafico il colore corrispondente a <lista>. L’argomento deve essere una lista di tre numeri da 0 a 255, che rappresentano rispettivamente la quantità di rosso, di verde e di blu da utilizzare per ottenere il colore richiesto. Per una scelta rapida del colore è anche possibile servirsi del Menù Imposta della Finestra Tarta. La modifica del colore dello sfondo ha effetto sull’intera Finestra Tarta. Perciò gli eventuali disegni presenti sullo schermo verranno ricoperti.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASSO
+}}\par{\f0\fs24\b 
+ASSO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASSOC
+}}\par{\f0\fs24\b 
+ASSOC
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASTASTO
+}}\par{\f0\fs24\b 
+ASTASTO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASTAVOLOZZA
+}}\par{\f0\fs24\b 
+ASTAVOLOZZA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASTEMPO
+}}\par{\f0\fs24\b 
+ASTEMPO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Serve ad assegnare un valore all’orologio di Iperlogo, che continuerà a contare a partire dal valore dell’argomento. L’unità di misura è di circa 50 msec.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASTIMER
+}}\par{\f0\fs24\b 
+ASTIMER
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Serve ad impostare un contatore di tempo, identificato da un numero da 1 a  31; ad ogni scadenza dell’intervallo di tempo impostato Iperlogo esegue una serie di comandi, fino a che non si dà il comando CANCETIMER. L’istruzione CANCETIMER può essere inclusa nella serie di comandi (ma in questo modo il timer verrà azionato una sola volta e poi disattivato). L’intervallo di tempo, misurato in unità da 5 msec., dovrà essere però sufficientemente ampio, altrimenti Logo, occupato ad eseguire i relativi comandi in modo pressoché continuo, non potrà “dare ascolto” al comando CANCETIMER. Un intervallo di 200 corrisponde a circa un secondo di pausa tra una ripetizione del comando e la successiva: non ha quindi senso impostare il timer per intervalli minori.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASTOUCH
+}}\par{\f0\fs24\b 
+ASTOUCH
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ASTRATTOPENNA
+}}\par{\f0\fs24\b 
+ASTRATTOPENNA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Assegna la dimensione del tratto della penna. Lo spessore del tratto è indicato da una lista di due numeri, che rappresenterebbero altezza e larghezza, ma Logo in realtà usa solo il primo di essi. Per evitare errori è sufficiente fornire una lista di due cifre uguali, oppure servirsi del Menù Imposta della Finestra Tarta.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+AT
+}}\par{\f0\fs24\b 
+AT
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+ATTR
+}}\par{\f0\fs24\b 
+ATTR
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+AVANTI
+}}\par{\f0\fs24\b 
+AVANTI
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Fa avanzare la tartaruga, nella direzione in cui si trova, del numero di passi indicato dall’argomento. Dopo l’esecuzione di un comando AVANTI, la direzione della tartaruga non viene modificata. L’argomento di AVANTI deve essere compreso tra -10000 e 10000; se è negativo, la tartaruga, anziché avanzare, indietreggia.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BINARIO
+}}\par{\f0\fs24\b 
+BINARIO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITAND
+}}\par{\f0\fs24\b 
+BITAND
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Riporta la congiunzione logica (AND) fatta bit per bit dei suoi input, che devono essere degli interi.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITBLOCK
+}}\par{\f0\fs24\b 
+BITBLOCK
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITCOPY
+}}\par{\f0\fs24\b 
+BITCOPY
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITCUT
+}}\par{\f0\fs24\b 
+BITCUT
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITFIT
+}}\par{\f0\fs24\b 
+BITFIT
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITINDEX
+}}\par{\f0\fs24\b 
+BITINDEX
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITLOAD
+}}\par{\f0\fs24\b 
+BITLOAD
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITMODE
+}}\par{\f0\fs24\b 
+BITMODE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITNOT
+}}\par{\f0\fs24\b 
+BITNOT
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Riporta la congiunzione logica (NOT) fatta bit per bit dei suoi input, che devono essere degli interi.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITOR
+}}\par{\f0\fs24\b 
+BITOR
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Riporta la congiunzione logica (OR = OPPURE) fatta bit per bit dei suoi input, che devono essere degli interi.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITPASTE
+}}\par{\f0\fs24\b 
+BITPASTE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITPRINT
+}}\par{\f0\fs24\b 
+BITPRINT
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITSAVE
+}}\par{\f0\fs24\b 
+BITSAVE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BITXOR
+}}\par{\f0\fs24\b 
+BITXOR
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Riporta la congiunzione logica (OPPURE ESCLUSIVO) fatta bit per bit dei suoi input, che devono essere degli interi.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BOTTONE
+}}\par{\f0\fs24\b 
+BOTTONE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BREAK
+}}\par{\f0\fs24\b 
+BREAK
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BUTTONCREATE
+}}\par{\f0\fs24\b 
+BUTTONCREATE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+BUTTONDELETE
+}}\par{\f0\fs24\b 
+BUTTONDELETE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CAMBIADIR
+}}\par{\f0\fs24\b 
+CAMBIADIR
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CAMPO
+}}\par{\f0\fs24\b 
+CAMPO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEARC
+}}\par{\f0\fs24\b 
+CANCEARC
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Cancella dal disco l’archivio indicato.  Gli archivi cancellati non sono più recuperabili, in altre parole gli effetti di CANCEARC sono irreversibili. Bisogna quindi fare attenzione a non cancellare archivi ancora necessari.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEFOGLIO
+}}\par{\f0\fs24\b 
+CANCEFOGLIO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEPENNA
+}}\par{\f0\fs24\b 
+CANCEPENNA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Trasforma la penna della tartaruga in una gomma da cancellare: se lo stato in cui si trova la penna è CANCEPENNA, la tartaruga, muovendosi, cancellerà dallo schermo tutti i punti che trova sul suo percorso (cancellare un punto significa assegnargli il colore dello sfondo. Per uscire dallo stato CANCEPENNA si deve dare alla tartaruga  il comando DIPINGIPENNA.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEPRIM
+}}\par{\f0\fs24\b 
+CANCEPRIM
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEPROC
+}}\par{\f0\fs24\b 
+CANCEPROC
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEPROC_IN
+}}\par{\f0\fs24\b 
+CANCEPROC_IN
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEPROP
+}}\par{\f0\fs24\b 
+CANCEPROP
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Ad ogni unità nello spazio di lavoro è associata una lista, detta lista delle proprietà, che contiene tutti i nomi di tutte le proprietà della parola per le quali è stato definito un valore. Ciascuna proprietà appartenente alla lista associata ad una parola, ha un valore (vedi ASPROP). 
+Il comando ASPROP permette di aggiungere nuove proprietà alla lista associata ad una parola; CANCEPROP, al contrario, permette di cancellare proprietà già definite; il primo argomento di CANCEPROP indica la parola per la quale verrà cancellata una proprietà, ed il secondo argomento è il nome della proprietà da cancellare.
+E’ opportuno ricordare che una proprietà, pur essendo identificata da uno stesso nome, può avere valori diversi per parole diverse e se si cancella una proprietà di una parola, resteranno definite le eventuali proprietà con lo stesso nome di parole diverse.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEPROP_IN
+}}\par{\f0\fs24\b 
+CANCEPROP_IN
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCETAVOLOZZA
+}}\par{\f0\fs24\b 
+CANCETAVOLOZZA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCETIMER
+}}\par{\f0\fs24\b 
+CANCETIMER
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Serve ad azzerare il contatore di tempo impostato con ASTIMER.e identificato da un numero da 1 a 31.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCETUTTO_IN
+}}\par{\f0\fs24\b 
+CANCETUTTO_IN
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEVAR
+}}\par{\f0\fs24\b 
+CANCEVAR
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CANCEVAR_IN
+}}\par{\f0\fs24\b 
+CANCEVAR_IN
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CAR
+}}\par{\f0\fs24\b 
+CAR
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Abbreviazione di CARATTERE.
+Questa funzione ha come valore il carattere il cui codice ASCII è uguale all’argomento < numero > (vedi ASCII).Poiché i codici ASCII sono numeri che vanno da 0 a 255, l’argomento di CAR dovrà essere compreso in questo intervallo.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CARATTERE
+}}\par{\f0\fs24\b 
+CARATTERE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CAT
+}}\par{\f0\fs24\b 
+CAT
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CATALOGO
+}}\par{\f0\fs24\b 
+CATALOGO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CENTRATO
+}}\par{\f0\fs24\b 
+CENTRATO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CHECKBOXCREATE
+}}\par{\f0\fs24\b 
+CHECKBOXCREATE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CHECKBOXDELETE
+}}\par{\f0\fs24\b 
+CHECKBOXDELETE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CHECKBOXGET
+}}\par{\f0\fs24\b 
+CHECKBOXGET
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CHECKBOXSET
+}}\par{\f0\fs24\b 
+CHECKBOXSET
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CHIAMA
+}}\par{\f0\fs24\b 
+CHIAMA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Questa primitiva, proprio come AS,  permette di assegnare un valore, specificato dal suo primo argomento, ad una parola, specificata come secondo argomento. La primitiva CHIAMA funziona in pratica esattamente come la primitiva AS: la differenza consiste nel fatto che gli argomenti sono forniti in ordine inverso.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CHIUDI
+}}\par{\f0\fs24\b 
+CHIUDI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CHIUDITUTTO
+}}\par{\f0\fs24\b 
+CHIUDITUTTO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CHIUSO
+}}\par{\f0\fs24\b 
+CHIUSO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Argomento di ASCAMPO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CIAO
+}}\par{\f0\fs24\b 
+CIAO
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+E’ un comando che fa uscire dal programma Iperlogo.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CIFRE
+}}\par{\f0\fs24\b 
+CIFRE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CIRCOLARE
+}}\par{\f0\fs24\b 
+CIRCOLARE
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Il comando CIRCOLARE permette di stabilire le caratteristiche dello spazio in cui si muove la tartaruga. 
+Se si dà il comando CIRCOLARE, lo spazio in cui si muove la tartaruga viene trasformato in modo tale che se un comando porta la tartaruga ad uscire dallo schermo, essa riapparirà dal lato opposto e di qui continuerà il suo movimento.
+Quando viene fatto partire Iperlogo, il campo è CIRCOLARE.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COLORE
+}}\par{\f0\fs24\b 
+COLORE
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Sinonimo di COLPENNA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COLPENNA
+}}\par{\f0\fs24\b 
+COLPENNA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COLRIEMPI
+}}\par{\f0\fs24\b 
+COLRIEMPI
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Riporta una lista di tre cifre da 0 a 255 che rappresenta il colore di riempimento corrente come successione delle intensità di Rosso, Verde, Blu.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COLTESTO
+}}\par{\f0\fs24\b 
+COLTESTO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COM1
+}}\par{\f0\fs24\b 
+COM1
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COM2
+}}\par{\f0\fs24\b 
+COM2
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMANDI
+}}\par{\f0\fs24\b 
+COMANDI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMBINA
+}}\par{\f0\fs24\b 
+COMBINA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMBOBOXADDSTRING
+}}\par{\f0\fs24\b 
+COMBOBOXADDSTRING
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMBOBOXCREATE
+}}\par{\f0\fs24\b 
+COMBOBOXCREATE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMBOBOXDELETE
+}}\par{\f0\fs24\b 
+COMBOBOXDELETE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMBOBOXDELETESTRING
+}}\par{\f0\fs24\b 
+COMBOBOXDELETESTRING
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMBOBOXGETTEXT
+}}\par{\f0\fs24\b 
+COMBOBOXGETTEXT
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMBOBOXSETTEXT
+}}\par{\f0\fs24\b 
+COMBOBOXSETTEXT
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMPILA
+}}\par{\f0\fs24\b 
+COMPILA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COMPRESS
+}}\par{\f0\fs24\b 
+COMPRESS
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONSERVA
+}}\par{\f0\fs24\b 
+CONSERVA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Salva lo spazio di lavoro corrente in un archivio per successive operazioni di lettura o scrittura. Se l’archivio esiste già sul disco, il vecchio contenuto viene sovrascritto. L’operazione di salvataggio dell’archivio è indispensabile per non perdere procedure e variabili che si desidera riutilizzare successivamente. Ricordiamo che i nomi degli archivi Iperlogo sono sottoposti a delle regole molto precise che sono dettate dal sistema operativo.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONSERVA_DIS
+}}\par{\f0\fs24\b 
+CONSERVA_DIS
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONSERVA_QUADRO
+}}\par{\f0\fs24\b 
+CONSERVA_QUADRO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONSERVA_TESTO
+}}\par{\f0\fs24\b 
+CONSERVA_TESTO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONSOLE
+}}\par{\f0\fs24\b 
+CONSOLE
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONTA
+}}\par{\f0\fs24\b 
+CONTA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+Questa funzione riporta il numero di oggetti che costituiscono il suo argomento. L’argomento può essere una lista o una parola: se è una lista, il valore di CONTA è uguale al numero di elementi della lista; quando invece CONTA è applicato ad una parola, il suo valore è il numero di caratteri che costituiscono la parola stessa.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONTARIPETIZIONI
+}}\par{\f0\fs24\b 
+CONTARIPETIZIONI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONTINUA
+}}\par{\f0\fs24\b 
+CONTINUA
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CONTROLLAEVENTO
+}}\par{\f0\fs24\b 
+CONTROLLAEVENTO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COPERTO
+}}\par{\f0\fs24\b 
+COPERTO
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COPIADEF
+}}\par{\f0\fs24\b 
+COPIADEF
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COPRI
+}}\par{\f0\fs24\b 
+COPRI
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COS
+}}\par{\f0\fs24\b 
+COS
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+fornisce il coseno di <n>
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COSA
+}}\par{\f0\fs24\b 
+COSA
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+La primitiva COSA fornisce il valore della parola datale come argomento (vedi AS, CHIAMA). Se l’argomento di COSA è espresso come letterale, ad esempio COSA “ASINO, la primitiva COSA può essere sostituita dai due punti “:” così, anziché COSA “X possiamo scrivere il più breve :X. In quest’ultimo caso si deve prestare attenzione a non mettere spazi fra i due punti e la parola che segue. se però l’argomento di COSA non è una parola,  ma una funzione che riporta una parola come risultato, non si possono usare i due punti: Iperlogo cercherebbe infatti di valutare il titolo della funzione come se si trattasse di una variabile, anziché eseguirla per ottenerne il valore,  che vogliamo sia passato come argomento a COSA.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+COSA?
+}}\par{\f0\fs24\b 
+COSA?
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CREALIB
+}}\par{\f0\fs24\b 
+CREALIB
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CTES
+}}\par{\f0\fs24\b 
+CTES
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+CURSORE
+}}\par{\f0\fs24\b 
+CURSORE
+}\par {\f0\fs22\b Descrizione} \par {\f0\fs20
+La funzione CURSORE ha un argomento che deve essere il nome di una finestra di tipo FOGLIO oppure CONSOLE. Viene riportata una coppia che rappresenta la riga e la colonna attuale del cursore nella finestra. L’origine è nell’angolo superiore sinistro della finestra.
+}\par\page
+\f0\fs24 #{\footnote {\f0\fs20 #
+D
+}}\par{\f0\fs24\b 
+D
+}\par\page
+}

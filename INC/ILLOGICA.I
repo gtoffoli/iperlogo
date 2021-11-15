@@ -1,0 +1,13 @@
+unsigned long esiste(int);
+int ug_atomo(unsigned long, unsigned long);
+int _uguale(unsigned long, unsigned long);
+void NON();
+void AMB();
+void OPPURE();
+void NUMERO();
+void PRIMITIVA();
+void DEF();
+void COSA_();
+void UGUALE();
+void MIN();
+void MAG();

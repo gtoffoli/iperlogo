@@ -1,0 +1,138 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Iperlogo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x410 /fo"Release/Iperlogo.res" /d "NDEBUG" "C:\il32\Iperlogo.rc"" 
+Creating temporary file "C:\DOCUME~1\gtoffoli\IMPOST~1\Temp\RSP105.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /O2 /I "Inc" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fp"Release/Iperlogo.pch" /Yu"STDAFX.H" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\il32\Src\Activear.cpp"
+"C:\il32\Src\Iperlogo.cpp"
+"C:\il32\Src\Mainfrm.cpp"
+"C:\il32\Src\Statdial.cpp"
+"C:\il32\Src\Turtlefr.cpp"
+"C:\il32\Src\Turtlevw.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gtoffoli\IMPOST~1\Temp\RSP105.tmp" 
+Creating temporary file "C:\DOCUME~1\gtoffoli\IMPOST~1\Temp\RSP106.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /O2 /I "Inc" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\il32\Src\Ilsis.cpp"
+"C:\il32\SRC\menu.cpp"
+"C:\il32\Src\Paletted.cpp"
+"C:\il32\Src\turtleCtlr.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gtoffoli\IMPOST~1\Temp\RSP106.tmp" 
+Creating temporary file "C:\DOCUME~1\gtoffoli\IMPOST~1\Temp\RSP107.tmp" with contents
+[
+oldnames.lib winmm.lib vfw32.lib ilconfig.lib cProtect\iperlogo.lib CxImage\CxImageDLL\Release\cximage.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Iperlogo.pdb" /map:"FULL" /machine:IX86 /def:".\Iperlogo.def" /out:"Release/Iperlogo.exe" 
+.\Release\Activear.obj
+.\Release\aiuto.obj
+.\Release\CDib.obj
+.\Release\crack.obj
+.\Release\dao.obj
+.\Release\Editorfr.obj
+.\Release\Editorvw.obj
+.\Release\Ilanalis.obj
+.\Release\Ilargvar.obj
+.\Release\Ilcatene.obj
+.\Release\Ilcodici.obj
+.\Release\Ilcomune.obj
+.\Release\Ilcontro.obj
+.\Release\Ildde.obj
+.\Release\Ildef.obj
+.\Release\Ildialog.obj
+.\Release\Ildizion.obj
+.\Release\Ilflussi.obj
+.\Release\Ilgui.obj
+.\Release\Ilinic.obj
+.\Release\Illogica.obj
+.\Release\Ilmain.obj
+.\Release\Ilmm.obj
+.\Release\Ilmondo.obj
+.\Release\Ilnodi.obj
+.\Release\Ilnumeri.obj
+.\Release\Ilparlis.obj
+.\Release\Ilscrivi.obj
+.\Release\Ilsis.obj
+.\Release\Ilspazio.obj
+.\Release\Ilstack.obj
+.\Release\Iltesto.obj
+.\Release\Iltimer.obj
+.\Release\Ilutil.obj
+.\Release\internet.obj
+.\Release\Iperldoc.obj
+.\Release\Iperlogo.obj
+.\Release\Iperlvw.obj
+.\Release\Kbdialog.obj
+.\Release\Lineedit.obj
+.\Release\Mainfrm.obj
+.\Release\Mainstat.obj
+.\Release\MciMidi.obj
+.\Release\MciPlay.obj
+.\Release\menu.obj
+.\Release\Midi.obj
+.\Release\Modeless.obj
+.\Release\Paletted.obj
+.\Release\Register.obj
+.\Release\SelglossD.obj
+.\Release\Selprocd.obj
+.\Release\shell.obj
+.\Release\Statdial.obj
+.\Release\Stdafx.obj
+.\Release\ToolFrame.obj
+.\Release\turtleCtlr.obj
+.\Release\TurtleDoc.obj
+.\Release\Turtlefr.obj
+.\Release\turtleMdl.obj
+.\Release\Turtlenw.obj
+.\Release\turtleVp.obj
+.\Release\Turtlevw.obj
+.\Release\Usage.obj
+.\Release\webframe.obj
+.\Release\webview.obj
+.\Release\Welcomed.obj
+.\Release\Iperlogo.res
+]
+Creating command line "link.exe @C:\DOCUME~1\gtoffoli\IMPOST~1\Temp\RSP107.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Activear.cpp
+Iperlogo.cpp
+Mainfrm.cpp
+Statdial.cpp
+Turtlefr.cpp
+Turtlevw.cpp
+Generating Code...
+Compiling...
+Ilsis.cpp
+menu.cpp
+Paletted.cpp
+Objective Studio will automatically link with MVC60.lib
+Objective Studio will automatically link with OSC60.lib
+Objective Views will automatically link with OV60.lib
+turtleCtlr.cpp
+Objective Studio will automatically link with MVC60.lib
+Objective Studio will automatically link with OSC60.lib
+Objective Views will automatically link with OV60.lib
+Generating Code...
+Objective Studio will automatically link with MVC60.lib
+Objective Studio will automatically link with OSC60.lib
+Objective Views will automatically link with OV60.lib
+Linking...
+.\Iperlogo.def : warning LNK4017: CODE statement not supported for the target platform; ignored
+.\Iperlogo.def : warning LNK4017: DATA statement not supported for the target platform; ignored
+   Creating library Release/Iperlogo.lib and object Release/Iperlogo.exp
+
+
+
+<h3>Results</h3>
+Iperlogo.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

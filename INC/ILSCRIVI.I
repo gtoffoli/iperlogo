@@ -1,0 +1,13 @@
+void a_capo();
+void spazio();
+void inscrivi();
+void outscrivi();
+void scri_atomo(unsigned long);
+void _scrivi(unsigned long);
+void _mostra(unsigned long);
+void STAMPA();
+void MOSTRA();
+void SCRIVI();
+// void _scricar(unsigned char);
+void _scricar(char);
+void SCRICAR();

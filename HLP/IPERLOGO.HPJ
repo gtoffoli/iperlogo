@@ -1,0 +1,23 @@
+[OPTIONS]
+LCID=0x410 0x0 0x0 ; Italiano (standard)
+TITLE=Aiuto per l'applicazione Iperlogo
+CNT=Iperlogo.cnt
+HLP=Iperlogo.hlp
+ERRORLOG=Iperlogo.log
+REPORT=Yes
+COMPRESS=true
+
+[FILES]
+Topics.txt
+
+[BITMAPS]
+
+[ALIAS]
+HIDR_MAINFRAME = main_index
+HIDD_ABOUTBOX = HID_APP_ABOUT
+
+
+[MAP]
+;#include <C:\Programmi\DevStudio\VC\MFC\include\afxhelp.hm>	// 980909
+#include <D:\Programmi\Microsoft Visual Studio\VC98\MFC\include\afxhelp.hm>
+;#include <hlp\Iperlogo.hm>

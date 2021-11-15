@@ -1,0 +1,5 @@
+﻿  Ilconfig.cpp
+C:\github\iperlogo\inc\ilconfig.h(13,1): warning C4005: 'ITALIANO': ridefinizione macro
+C:\github\iperlogo\Src\Ilconfig.cpp : message : vedere la precedente definizione di 'ITALIANO'
+     Creazione della libreria .\Ilconfig.lib e dell'oggetto .\Ilconfig.exp
+  Ilconfig.vcxproj -> C:\github\iperlogo\ILCONFIG\ilconfig.dll

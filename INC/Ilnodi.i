@@ -1,0 +1,46 @@
+// 980831: modificato consstr per compatibilità con CString
+
+void sel_EMM(int);
+void leggi_nodo(unsigned long);
+void leggi_nodo_file(unsigned long);
+int wordtype(unsigned long);
+int typ(unsigned long);
+int puttyp(unsigned long, int);
+unsigned long car(unsigned long);
+unsigned long putcar(unsigned long, unsigned long);
+unsigned long cdr(unsigned long);
+unsigned long putcdr(unsigned long, unsigned long);
+unsigned long consreal(double);
+double node2real(unsigned long);
+// unsigned long consstr(int, unsigned char *);
+// unsigned int node2str(unsigned long, unsigned char *);
+// void putnode(unsigned long, unsigned char *);
+// void getnode(unsigned long, unsigned char *);
+// unsigned long consstr(int, char *);
+unsigned long consstr(int, const char *);		// 980831
+unsigned int node2str(unsigned long, char *);
+void putnode(unsigned long, char *);
+void getnode(unsigned long, char *);
+// void put_char(unsigned long, unsigned char);
+void put_char(unsigned long, char);
+int prepara_mem();
+int prepara_mem_estesa(int);
+int prepara_mem_base(int);
+// int prepara_mem_file(unsigned char *);
+int prepara_mem_file(char *);
+void rilascia_mem();
+void rilascia_mem_base();
+void rilascia_mem_file();
+void rilascia_mem_estesa();
+void set_tipo(unsigned long, int);
+void res_tipo(unsigned long, int);
+int bit_tipo(unsigned long, int);
+void marca_rete(unsigned long);
+int is_smarcato(unsigned long);
+void marca_ll();
+void pacca_n();
+void _nontracciare();
+void inifre(int, int);
+void inifre_estesa(int, int);
+void inifre_file(int, int);
+unsigned long cons(unsigned long, unsigned long, int);

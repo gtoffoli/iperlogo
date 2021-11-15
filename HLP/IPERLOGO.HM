@@ -1,0 +1,71 @@
+// MAKEHELP.BAT generated Help Map file.  Used by iperlogo.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_ZOOM_IN                             0x18003
+HID_ZOOM_OUT                            0x1800C
+HID_ZOOM_NORMAL                         0x1800D
+HID_BITMAP_NEW                          0x1800F
+HID_BITMAP_LOAD                         0x18010
+HID_BITMAP_SAVE                         0x18011
+HID_BITMAP_SAVEAS                       0x18012
+HID_BITMAP_PRINT                        0x18014
+HID_PRINT_SETUP                         0x18015
+HID_BITMAP_ACTIVEAREA                   0x18016
+HID_FILE_EDIT                           0x18017
+HID_FILE_ERASE                          0x18018
+HID_FILE_LOAD                           0x18019
+HID_EDIT_SELECTALL                      0x1801B
+HID_EDIT_DELETE                         0x1801C
+HID_SEARCH_FIND                         0x1801D
+HID_SEARCH_FINDNEXT                     0x1801E
+HID_FILE_EXIT                           0x1801F
+HID_FILE_EXECANDEXIT                    0x18020
+HID_SEARCH_REPLACE                      0x18021
+HID_SET_FONT                            0x18022
+HID_HELP_EDITOR                         0x18024
+HID_HELP_TOPIC                          0x18025
+HID_TEST_SELECTION                      0x18026
+HID_TEST_ALL                            0x18027
+HID_HELP_TUTORIAL                       0x18028
+HID_HELP_DEMO                           0x18029
+HID_HELP_EXAMPLES                       0x1802A
+HID_HELP_RELEASE                        0x1802B
+HID_SET_PENSIZE                         0x1802C
+HID_SET_PENCOLOR                        0x1802D
+HID_SET_FLOODCOLOR                      0x1802E
+HID_SET_SCREENCOLOR                     0x1802F
+HID_WINDOWS_NEW                         0x18030
+HID_TURTLESTATUS_SHOW                   0x18031
+HID_TURTLESTATUS_REFRESH                0x18032
+HID_TURTLESTATUS_HIDE                   0x18033
+HID_WINDOWS_WINDOW                      0x18035
+HID_W_2                                 0x18036
+HID_W_3                                 0x18037
+HID_W_4                                 0x18038
+HID_W_5                                 0x18039
+HID_W_6                                 0x1803A
+HID_W_7                                 0x1803B
+HID_W_8                                 0x1803C
+HID_W_9                                 0x1803D
+HID_W_10                                0x1803E
+HID_FILE_PRINTSETUP                     0x1803F
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20002
+HIDR_TURTLE                             0x20068
+HIDR_EDITOR                             0x20072
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_IPERLOGO_FORM                      0x20065
+HIDD_LINE_DIALOG                        0x20066
+HIDD_MODELESS                           0x20069
+HIDD_MODAL                              0x2006A
+HIDD_INPUT                              0x2006E
+HIDD_KEYBOARD                           0x2006F
+HIDD_TURTLE_STATUS                      0x20074
+HIDD_ACTIVE_AREA                        0x20075
+ 
+// Frame Controls (IDW_*) 

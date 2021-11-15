@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ilconfig - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPF2B3.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/Ilconfig.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\IL32\Src\Ilconfig.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF2B3.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/Ilconfig.pdb" /machine:I386 /out:"Release/Ilconfig.dll" /implib:"Release/Ilconfig.lib"  .\Release\Ilconfig.obj "
+<h3>Output Window</h3>
+Compiling...
+Ilconfig.cpp
+Linking...
+   Creating library Release/Ilconfig.lib and object Release/Ilconfig.exp
+
+
+
+<h3>Results</h3>
+Ilconfig.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ilconfig - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPF381.TMP" with contents
+[
+/nologo /MTd /W3 /GX /O2 /D "WIN32" /D "_WINDOWS" /D "ITALIANO" /Fp"Ilconfig.pch" /YX /FD /c 
+"C:\IL32\Src\Ilconfig.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF381.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /dll /incremental:yes /pdb:"Ilconfig.pdb" /machine:I386 /out:"Ilconfig.dll" /implib:"Ilconfig.lib" /pdbtype:sept  .\Ilconfig.obj "
+<h3>Output Window</h3>
+Compiling...
+Ilconfig.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Ilconfig.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Custom
+.vs
+*.tlog
+*.rtf
+*.mdb
+debug
+backup*
+release

@@ -1,0 +1,3 @@
+BOOL CreateDdeServer ();
+void DestroyDdeServer ();
+

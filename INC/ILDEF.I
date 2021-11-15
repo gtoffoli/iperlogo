@@ -1,0 +1,11 @@
+void AS();
+void CHIAMA();
+void PER();
+void DEFINISCI();
+void _def(unsigned long, unsigned long);
+void TESTO();
+void COPIADEF();
+void _RINOMINA();
+void recu_pac();
+void CANCEPRIM();
+void COMPILA();

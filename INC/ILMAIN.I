@@ -1,0 +1,14 @@
+void main();
+void valuta();
+void gettok();
+void COSA();
+void CIAO();
+void NIENTE();
+void tstbreak();
+void _BREAK();
+void U_ERRORE();
+void err_arg1();
+void err_arg2();
+void errore(int, unsigned long, unsigned long);
+void errfat(int);
+void vai_top_1();
